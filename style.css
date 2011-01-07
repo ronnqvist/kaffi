@@ -13,6 +13,5 @@ a {
 a:hover {
   text-decoration: underline;
 }
-img { width: 800px; }
 #left { float: left; }
 #right { float: right; }

@@ -1,12 +1,13 @@
 {
-  "name": "Rocky",
+  "name": "Kaffi",
   "version": "1.2",
-  "description": "Read the swedish Rocky comic strip",
+  "description": "Read the Swedish Kaffi comic strip from Finland",
   "icons": {
-    "48": "rocky.png"
+    "48": "rocky.png",
+    "128": "kaffi128.png"
   },
   "browser_action": {
-    "default_icon": "rocky.png",
+    "default_icon": "kaffi.png",
     "popup": "popup.html"
   }
 }
