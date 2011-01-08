@@ -10,6 +10,7 @@
       function updatePhoto(daysAgo) {
         document.body.replaceChild(constructImage(daysAgo), document.getElementById('strip'));
         document.getElementById('left').style.display = (daysAgo == 0 ? "none" : "block");
+        document.getElementById('right').style.display = (daysAgo >= strips.length ? "none" : "block");
       }
     </script>
   </head>

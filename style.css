@@ -13,5 +13,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
+p#strip { white-space: nowrap; }
 #left { float: left; }
 #right { float: right; }
